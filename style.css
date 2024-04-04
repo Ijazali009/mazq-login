@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: black;
+   animation-name: ajuu;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes ajuu{
+  0%{
+    background: url(arget-zvHhKiVuR9M-unsplash.jpg);
+    
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  100%{
+    background: url(alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.box{
+      background-color: rgba(38, 5, 104, 0.69);
+    width: 20rem;
+    padding: 30px 10px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 14px 5px rgba(5, 25, 249, 0.888);
+    margin: 170px auto;
+    text-align: center;
+    animation-name: aj;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes aj{
+  0%{
+    box-shadow: 1px 2px 14px 5px rgba(249, 115, 5, 0.888);
+    background-color: rgba(18, 17, 19, 0.69);
+  }
+  25%{
+    box-shadow: 1px 2px 14px 5px rgba(241, 249, 5, 0.888);
+    background-color: rgba(17, 17, 87, 0.69);
+  }
+
+  50%{
+    box-shadow: 1px 2px 14px 5px rgba(37, 249, 5, 0.888);
+    background-color: rgba(18, 17, 19, 0.69);
+  }
+  75%{
+    box-shadow: 1px 2px 14px 5px rgba(4, 198, 246, 0.888);
+    background-color: rgba(35, 32, 37, 0.69);
+  }
+  100%{
+    box-shadow: 1px 2px 14px 5px rgba(249, 5, 229, 0.888);
+    background-color: rgba(17, 17, 87, 0.69);
+  }
+}
+a{
+    text-decoration: none;
+    color: rgb(153, 152, 167);
+    padding: 5px 5px;
+    
+}
+h4{
+    font-family: cursive;
+}
+
+a:hover{
+  color: white;
+}
+
+
+input:hover{
+  background-color: rgb(177, 205, 231);
+  
+}
+
+
+
+
+
+
+input{
+    background-color: hwb(0 100% 0% / 0.897);
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 1px 2px 12px 4px rgba(8, 204, 126, 0.823);
+    border: none;
+    
+    
+}
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    
+
+}
+button:hover{
+  background-color: rgb(22, 22, 176);
+}
+
